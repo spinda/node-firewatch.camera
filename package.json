@@ -1,0 +1,23 @@
+{
+  "name": "firewatch.camera",
+  "version": "1.0.0",
+  "description": "API client for firewatch.camera",
+  "main": "index.js",
+  "bin": {
+    "firewatch.camera": "./bin/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spinda/node-firewatch.camera.git"
+  },
+  "author": "Michael Smith",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/spinda/node-firewatch.camera/issues"
+  },
+  "homepage": "https://github.com/spinda/node-firewatch.camera#readme",
+  "dependencies": {
+    "async": "^1.5.2",
+    "request": "^2.69.0"
+  }
+}
