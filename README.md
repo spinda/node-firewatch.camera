@@ -10,17 +10,18 @@ downloaded, and&mdash;most interestingly&mdash;physically printed and mailed to
 you in a classic-style "Fotodome" envelope. I think that's pretty cool!
 
 After uploading my own in-game camera roll, I wondered if this would work for
-any random image on my PC. For fun, I reverse engineered the Firewatch Camera
-API and put together this little tool and library as a demo.
+any random image on my PC. For fun, I
+[reverse engineered the Firewatch Camera API][5] and put together this little
+tool and library as a demo.
 
-![firewatch.camera Screenshot][5]
+![firewatch.camera Screenshot][6]
 
 Please be polite to their servers, and of course you shouldn't use this for
 anything serious.
 
 ## Installation
 
-You'll need [Node.js and npm](http://nodejs.org/).
+You'll need [Node.js and npm][7].
 
 For the command line tool:
 
@@ -82,7 +83,7 @@ firewatch.uploadCameraRoll(photoStreams, function (err, url) {
 
 ## Legal
 
-License: [BSD3][6]
+License: [BSD3][8]
 
 Firewatch is a trademark of Campo Santo.
 
@@ -90,6 +91,8 @@ Firewatch is a trademark of Campo Santo.
 [2]: http://www.camposanto.com/ "Campo Santo Homepage"
 [3]: https://panic.com "Panic Homepage"
 [4]: https://www.firewatch.camera/ "firewatch.camera Homepage"
-[5]: https://i.imgur.com/oO6pvg3.png "firewatch.camera Screenshot"
-[6]: LICENSE "License File"
+[5]: https://spindas.dreamwidth.org/2244.html "Explanatory blog post"
+[6]: https://i.imgur.com/oO6pvg3.png "firewatch.camera Screenshot"
+[7]: https://nodejs.org "Node.js Homepage"
+[8]: LICENSE "License File"
 
